@@ -1,0 +1,17 @@
+{
+  "uuid": "c5986310-e965-43d7-994e-12fbbcc01263",
+  "shortName": "gps-face",
+  "longName": "gps-face",
+  "companyName": "MakeAwesomeHappen",
+  "versionCode": 1,
+  "versionLabel": "1.0.0",
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+    "media": []
+  }
+}
