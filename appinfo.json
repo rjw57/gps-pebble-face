@@ -9,9 +9,16 @@
     "watchface": false
   },
   "appKeys": {
-    "dummy": 0
+    "latitude": 0,
+    "longitude": 1,
+    "accuracy": 2,
+    "heading": 3,
+    "speed": 4,
+    "bng": 5,
+    "request_loc": 6
   },
   "resources": {
     "media": []
-  }
+  },
+  "capabilities": ["location"]
 }
