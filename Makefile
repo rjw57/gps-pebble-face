@@ -10,9 +10,8 @@ clean:
 	pebble clean
 	rm -f src/js/pebble-js-app.js
 
-src/js/pebble-js-app.js: src/js/main.js $(wildcard src/js/lib/*.js)
-	echo "/* This file is generated automatically. DO NOT EDIT. */" >"$@"
-	cat $^ >>"$@"
+src/js/pebble-js-app.js: src/js/build.js src/js/main.js $(wildcard src/js/lib/*.js)
+	r.js -o "$<"
 
 .PHONY: all build install clean
 
