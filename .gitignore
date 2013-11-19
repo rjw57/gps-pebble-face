@@ -2,6 +2,7 @@
 # Ignore build generated files
 build
 .lock-waf_*
+src/js/pebble-js-app.js
 
 # Ignore editor temporary files
 .*.swp
