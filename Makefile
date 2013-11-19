@@ -3,7 +3,7 @@ all: build
 build: src/js/pebble-js-app.js
 	pebble build
 
-install:
+install: build
 	pebble install
 
 clean:
