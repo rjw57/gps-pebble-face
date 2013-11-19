@@ -48,7 +48,7 @@ static void refresh_face() {
 
 /* Called to update face */
 static void handle_tick(struct tm* tick_time, TimeUnits units_changed) {
-    if((0 == strcmp(state.bng_reference, "")) || (state.bng_reference[0] == ' ') || (state.last_response + 15 < time(NULL))) {
+    if((0 == strcmp(state.bng_reference, "")) || (state.bng_reference[0] == ' ') || (state.last_response + 5 < time(NULL))) {
         send_cmd();
     }
 }
